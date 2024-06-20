@@ -1,0 +1,29 @@
+---
+game:
+  teams:
+    - white
+    - black
+board:
+  size  : 7 # Nya~ Do not define a huge num pls! (Ó﹏Ò｡)
+  layout:
+    2;0  : { piece: capple, team: white }
+    12;0 : { piece: capple, team: white }
+    2;14 : { piece: capple, team: black }
+    12;14: { piece: capple, team: black }
+piece: 
+  capple:
+    piece_name : capple
+    movement: 
+      regular: 
+        - {x: +2, y: 0, d: .inf}
+        - {x: +2, y: 0, d: .inf}
+        - {x:  0, y: 1, d: .inf}
+      capture: 
+        - {x: +2, y:  0, d: .inf}
+        - {x: +2, y:  0, d: .inf}
+        - {x:  0, y: +1, d: 1   }
+      corner:
+        - {x: 0, y: +1, d: .inf}
+        - {x: 0, y: -1, d: .inf} 
+      opening:
+        - {x: 0, y: +1, d: 3}
