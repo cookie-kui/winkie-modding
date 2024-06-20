@@ -35,10 +35,10 @@ In Winkie you can create a room by a post request. `/room/room-create` does it w
   "name": "Kui's lovely room",
   "password": "passOwOrd",
   "mode": "casual",
-  "teams": ["white", "black"]
+  "teams": ["white", "black"],
   "clients": [],
   "board": {
-    "2;7": { "piece": "capple", "team": "white" }
+    "2;7": { "piece": "capple", "team": "white" },
     "8;0": { "piece": "capple", "team": "black" }
   }
 }
