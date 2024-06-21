@@ -110,16 +110,15 @@ Oh, a mod folder also includes a subfolder named "resources" it has the assets o
 
 ```
 mods
-   |_ casual
-   |       |_ resources
-   |       |          |_ white
-   |       |                 |_ capple.png
-   |       |          |_ black
-   |       |                 |_ capple.png
-   |       |_ data.yml
-   |
-   |_ huge-board
-   |_ chess
+   ├── casual
+   │        ├──_resources
+   │        │           ├── white
+   │        │           │       └── capple.png
+   │        │           └── black
+   │        │                   └── capple.png
+   │        └── data.yml
+   ├── huge-board
+   └── chess
 ```
 So don't forget to add the assets of your pieces while forking this repo!
 I love y'all <3
