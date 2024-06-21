@@ -111,7 +111,7 @@ Oh, a mod folder also includes a subfolder named "resources" it has the assets o
 ```
 mods
    ├── casual
-   │        ├──_resources
+   │        ├── resources
    │        │           ├── white
    │        │           │       └── capple.png
    │        │           └── black
